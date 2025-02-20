@@ -21,7 +21,7 @@
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 rm -rf feeds/luci/applications/{luci-app-homeproxy,luci-app-openclash,luci-app-passwall}
 rm -rf feeds/packages/net/{chinadns-ng,mosdns,xray-core,v2ray-core,v2ray-geodata,sing-box}
-git clone https://github.com/sbwml/openwrt_helloworld.git package/helloworld
-git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git package/mosdns
+git clone -b v5 --single-branch https://github.com/sbwml/openwrt_helloworld.git package/helloworld
+git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
 git clone -b master --single-branch https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
