@@ -27,4 +27,3 @@ git clone -b v5 --single-branch https://github.com/sbwml/openwrt_helloworld.git 
 git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
 git clone -b master --single-branch https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
-git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
