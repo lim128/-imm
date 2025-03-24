@@ -16,4 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#wget -O include/kernel-6.6 https://raw.githubusercontent.com/lim128/rule/refs/heads/main/kernel-6.6
+wget -O include/kernel-6.6 https://raw.githubusercontent.com/lim128/rule/refs/heads/main/kernel-6.6
