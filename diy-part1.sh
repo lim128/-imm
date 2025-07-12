@@ -16,6 +16,6 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git helloworld https://github.com/sbwml/openwrt_helloworld.git;v5' >>feeds.conf.default
-echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;v5' >>feeds.conf.default
-echo 'src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice.git;js' >>feeds.conf.default
+sed -i '1i src-git helloworld https://github.com/sbwml/openwrt_helloworld.git;v5' >>feeds.conf.default
+sed -i '2i src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;v5' >>feeds.conf.default
+sed -i '3i src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice.git;js' >>feeds.conf.default
