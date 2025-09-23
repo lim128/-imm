@@ -21,3 +21,4 @@
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 rm -rf feeds/{luci,packages}/{applications,lang,net}/{luci-app-openclash,luci-app-passwall,golang,chinadns-ng,daed,dns2socks-rust,dns2socks,dns2tcp,geoview,hysteria,ipt2socks,microsocks,mosdns,naiveproxy,nikki,pdnsd,redsocks2,shadow-tls,simple-obfs,sing-box,tcping,trojan-plus,trojan,tuic-client,v2ray-core,v2ray-geodata,v2ray-plugin,xray-core,xray-plugin}
 git clone -b 25.x --single-branch https://github.com/sbwml/packages_lang_golang.git feeds/packages/lang/golang
+git clone -b beta --single-branch https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
